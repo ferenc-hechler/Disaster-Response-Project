@@ -42,3 +42,7 @@ cd models
 pytest
 ```
 
+## Sources
+
+The source code is available in GitHub: [Disaster-Response-Project](https://github.com/ferenc-hechler/Disaster-Response-Project).
+

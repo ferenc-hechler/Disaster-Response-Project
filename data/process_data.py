@@ -41,6 +41,8 @@ def load_data(messages_filepath, categories_filepath):
         categories[column] = categories[column].str[-1:]
         # convert column from string to numeric
         categories[column] = pd.to_numeric(categories[column])
+        # replace values > 1 with 1
+        categories[categories[column] > 1] = 1
 
     df = df.drop(columns=["categories"])        
 
