@@ -61,6 +61,8 @@ def tokenize(text):
 def build_model():
     '''
     Create a NLP Pipeline for predicting message categories.
+    The initial parameters used here were derived by running 
+    GridSearchCV. 
 
     Output:
     model which can be trained with fit() and then be used 
